@@ -5,7 +5,6 @@
  * This program ...
 */
 
-let randomNumber: number
 let temperature = input.temperature()
 
 basic.clearScreen()
