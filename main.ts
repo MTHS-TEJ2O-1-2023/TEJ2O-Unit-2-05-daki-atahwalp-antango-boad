@@ -17,6 +17,6 @@ basic.clearScreen()
 
 input.onButtonPressed(Button.A, function () {
   temperature = input.temperature()
-  basic.showNumber(input.temperature() + 273)
+  basic.showNumber(temperature + 273)
   basic.showString('Kelvin')
 })
