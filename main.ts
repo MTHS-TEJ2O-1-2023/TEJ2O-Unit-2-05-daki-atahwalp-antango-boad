@@ -13,6 +13,8 @@ basic.showIcon(IconNames.Happy)
 
 basic.clearScreen()
 
+///Equation to convert Celsius to Kelvin: Celsius + 273
+
 input.onButtonPressed(Button.A, function () {
     temperature = input.temperature()
     basic.showNumber(input.temperature() + 273)
