@@ -14,7 +14,7 @@ basic.showIcon(IconNames.Happy)
 basic.clearScreen()
 
 input.onButtonPressed(Button.A, function () {
-  temperature = input.temperature()
-  basic.showNumber(input.temperature() + 273) 
-  basic.showString('Kelvin')
+    temperature = input.temperature()
+    basic.showNumber(input.temperature() + 273)
+    basic.showString('Kelvin')
 })
