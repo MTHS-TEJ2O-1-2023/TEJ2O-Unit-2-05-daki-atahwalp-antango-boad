@@ -12,7 +12,7 @@ let temperatureKelvin: number
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed(Button.A, function () {
   // input
   temperatureKelvin = input.temperature()
 
@@ -22,5 +22,5 @@ input.onButtonPressed(Button.A, function() {
 
   // output
   basic.clearScreen()
-  basic.showString('The temperature is: ' + temperatureKelvin.toString() + 'K')
+  basic.showString('The temperature is:' + temperatureKelvin.toString() + 'K')
 })
