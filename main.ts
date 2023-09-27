@@ -2,7 +2,7 @@
  *
  * Created by: Daki A.B
  * Created on: Sep 2023
- * This program find temperature in Kelvin
+ * This program finds temperature in Kelvin
 */
 
 /// variable for temperature
