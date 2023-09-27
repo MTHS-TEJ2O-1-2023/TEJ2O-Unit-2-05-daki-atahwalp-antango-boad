@@ -7,12 +7,12 @@
 
 /// variable for temperature 
 
-let temperatureKelvin: number
+let temperatureKelvin:number
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.A,function () {
   // input
   temperatureKelvin = input.temperature()
 
