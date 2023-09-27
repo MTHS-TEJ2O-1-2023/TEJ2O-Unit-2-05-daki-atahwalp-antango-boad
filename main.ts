@@ -5,7 +5,7 @@
  * This program find temperature in Kelvin
 */
 
-/// variable for temperature 
+/// variable for temperature
 
 let temperatureKelvin:number
 
