@@ -22,5 +22,5 @@ input.onButtonPressed(Button.A, function() {
 
   // output
   basic.clearScreen()
-  basic.showString('The temperature is: ' +temperatureKelvin.toString() + 'K')
+  basic.showString('The temperature is: ' + temperatureKelvin.toString() + 'K')
 })
