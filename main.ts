@@ -5,18 +5,22 @@
  * This program ...
 */
 
-let temperature = input.temperature()
+/// variable for temperature 
+
+let temperatureKelvin: number
 
 basic.clearScreen()
-basic.pause(1000)
 basic.showIcon(IconNames.Happy)
 
-basic.clearScreen()
+input.onButtonPressed(Button.A, function() {
+  // input
+  temperatureKelvin = input.temperature()
 
-/// Equation to convert Celsius to Kelvin: Celsius + 273
+  // process
+  temperatureKelvin = (temperatureKelvin + 273.15)
+  temperatureKelvin = Math.round(temperatureKelvin)
 
-input.onButtonPressed(Button.A, function () {
-  temperature = input.temperature()
-  basic.showNumber(temperature + 273)
-  basic.showString('Kelvin')
+  // output
+  basic.clearScreen()
+  basic.showString('The temperature is: ' +temperatureKelvin.toString() + 'K')
 })
